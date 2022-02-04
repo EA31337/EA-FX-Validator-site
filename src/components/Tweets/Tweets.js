@@ -1,4 +1,4 @@
-import ActiveLink from "../Header/ActiveLink";
+import ActiveLink from "../ActiveLink/ActiveLink";
 import {Helmet} from "react-helmet";
 import styles from './Tweets.module.css';
 

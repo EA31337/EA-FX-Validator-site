@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from "./Header.module.scss";
-import ActiveLink from "./ActiveLink";
+import ActiveLink from "../ActiveLink/ActiveLink";
 
 export default () => {
   return (
