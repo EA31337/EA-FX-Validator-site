@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from "./Header.module.scss";
-import ActiveLink from "./ActiveLink";
+import ActiveLink from "../ActiveLink/ActiveLink";
 
 export default () => {
   return (
@@ -32,8 +32,11 @@ export default () => {
               <ActiveLink href="/stats" className="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white mr-4 cursor-pointer">
                 <a>Stats</a>
               </ActiveLink>
-              <ActiveLink href="/projects" className="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white cursor-pointer">
+              <ActiveLink href="/projects" className="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white mr-4 cursor-pointer">
                 <a>Projects</a>
+              </ActiveLink>
+              <ActiveLink href="/tweets" className="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white cursor-pointer">
+                <a>Tweets</a>
               </ActiveLink>
             </div>
           </div>
